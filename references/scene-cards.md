@@ -76,8 +76,8 @@
 ### 最后一页 尾页
 - 金句（oversized引号装饰 `"` ，Fraunces 200px，opacity 0.15）
 - 圆形头像 + 署名「Esther不二」
-- CTA：「关注 Esther不二」
-- 一行小字：`在AI时代认真生活的女生｜INTJ / 跟Agent搭档的第1年`
+- CTA：「关注 Esther不二」（英文卡片用 `Slowly building, openly sharing.`）
+- 一行小字：`在AI时代认真生活的女生｜INTJ / 跟Agent搭档的第1年`（英文卡片用 `Living intentionally in the AI era | INTJ / Teaming up with an AI agent — year one`）
 - 底部品牌三色装饰条
 
 ---

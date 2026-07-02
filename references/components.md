@@ -4022,6 +4022,15 @@ function flipStack() {
 ▪️跟Agent搭档的第1年
 ```
 
+英文版（用于英文卡片/出海内容，除 INTJ 外小写，句首字母大写）：
+
+```
+Living intentionally in the AI era | INTJ
+Teaming up with an AI agent — year one
+```
+
+英文内容固定 CTA：`Slowly building, openly sharing.`
+
 不要再用旧版「AI时代的个人品牌实验 · 用AI让生活变好」。
 
 ---
