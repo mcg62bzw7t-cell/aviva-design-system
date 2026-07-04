@@ -90,7 +90,7 @@ body (background:#f5f5f5)
 
 ### 引言区块（方案C：黄色渐变底）
 ```html
-<section style="margin-bottom:28px; padding:24px 22px; background:linear-gradient(135deg, #FFF8E1 0%, #faf6eb 100%); border-radius:16px;">
+<section style="margin-bottom:28px; padding:24px 22px; background:#FFF8E1; border-radius:16px;">
   <p style="margin:0 0 14px; font-size:16px; line-height:2; color:#1A1A2E;">引言正文</p>
   <p style="margin:0; font-size:16px; line-height:2; color:#1A1A2E;">第二段</p>
 </section>

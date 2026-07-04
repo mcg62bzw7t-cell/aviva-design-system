@@ -91,7 +91,7 @@
 
 | 类型 | 禁止 |
 |------|------|
-| 配色 | 蓝紫渐变、cyan、neon、纯黑白、AI常用的冷灰蓝调 |
+| 配色 | 蓝紫渐变、cyan、neon、纯黑白、AI常用的冷灰蓝调、任何多色渐变背景（占位色块用纯色 `#FFF8E1` 或 `#F4D758`，荷光笔高亮的 `linear-gradient(transparent 60%, #F4D758 60%)` 保留） |
 | 深色版面 | 仅3:4图文卡片场景禁止黑色/深色版面；HTML全屏页面可用深色面板 |
 | 字体 | Inter/Roboto/Arial等overused字体（除非明确是终端风格辅助字体）、monospace充当"技术感" |
 | 布局 | 所有section居中、千篇一律卡片网格、cards嵌套cards |
