@@ -172,7 +172,7 @@ App型页面色彩更简洁：
 }
 .app-input:focus {
   outline: none;
-  border-color: var(--blue, #FFA7A6);
+  border-color: var(--blue, #FECBCA);
   box-shadow: 0 0 0 3px rgba(43,127,216,0.1);
 }
 ```

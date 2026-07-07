@@ -83,7 +83,7 @@ Landing页面高频使用的组件：
   align-items: center;
   gap: 8px;
   padding: 16px 36px;
-  background: var(--blue, #FFA7A6);
+  background: var(--blue, #FECBCA);
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
@@ -98,7 +98,7 @@ Landing页面高频使用的组件：
 
 /* 黄色变体（用于深色背景上） */
 .cta-button--yellow {
-  background: var(--yellow, #D1E5D0);
+  background: var(--yellow, #403F44);
   color: var(--ink, #1A1A2E);
 }
 .cta-button--yellow:hover {
