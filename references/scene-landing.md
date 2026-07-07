@@ -1,4 +1,4 @@
-# Scene: 活动页 / 分享会 / Landing Page
+﻿# Scene: 活动页 / 分享会 / Landing Page
 
 > 适用于分享会邀请页、活动报名页、产品发布Landing、合作宣传页等需要强节奏感和行动转化的页面。
 
@@ -83,7 +83,7 @@ Landing页面高频使用的组件：
   align-items: center;
   gap: 8px;
   padding: 16px 36px;
-  background: var(--blue, #2B7FD8);
+  background: var(--blue, #FFA7A6);
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
@@ -98,7 +98,7 @@ Landing页面高频使用的组件：
 
 /* 黄色变体（用于深色背景上） */
 .cta-button--yellow {
-  background: var(--yellow, #F4D758);
+  background: var(--yellow, #D1E5D0);
   color: var(--ink, #1A1A2E);
 }
 .cta-button--yellow:hover {

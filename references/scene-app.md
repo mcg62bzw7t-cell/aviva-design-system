@@ -1,4 +1,4 @@
-# Scene: App型 / 功能型页面
+﻿# Scene: App型 / 功能型页面
 
 > 适用于个人看板、书架、Canvas白板等功能优先的应用型页面。视觉克制，交互优先。
 
@@ -172,7 +172,7 @@ App型页面色彩更简洁：
 }
 .app-input:focus {
   outline: none;
-  border-color: var(--blue, #2B7FD8);
+  border-color: var(--blue, #FFA7A6);
   box-shadow: 0 0 0 3px rgba(43,127,216,0.1);
 }
 ```

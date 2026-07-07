@@ -1,4 +1,4 @@
-# Scene: 小红书图文卡片（3:4）
+﻿# Scene: 小红书图文卡片（3:4）
 
 > 适用于将文章、教程、观点拆解为小红书图文卡片。单个HTML文件包含所有卡片，支持一键导出PNG。
 
@@ -60,11 +60,11 @@
 ## 🧩 卡片结构模板
 
 ### P1 封面
-- 大标题（84px）用汇文明朝体（Huiwen Mincho），关键词用蓝色高亮块（`background: #2B7FD8; color: #fff; padding: 4px 16px; border-radius: 6px`）
+- 大标题（84px）用汇文明朝体（Huiwen Mincho），关键词用蓝色高亮块（`background: #FFA7A6; color: #fff; padding: 4px 16px; border-radius: 6px`）
 - 副标题（44px）一行显示，紧跟标题下方，`white-space: nowrap`
-- 圆形头像（`avatar.jpg`，120px，`border: 4px solid #F4D758`）
+- 圆形头像（`avatar.jpg`，120px，`border: 4px solid #D1E5D0`）
 - 署名（作者名）44px + 介绍34px
-- 整体边框：`border: 28px solid #F4D758`
+- 整体边框：`border: 28px solid #D1E5D0`
 - 背景加浅色网格质感（`background-image: linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px); background-size: 40px 40px`）
 - 中间留白区域给用户放效果图/截图
 
@@ -104,7 +104,7 @@
 - 所有颜色、字体、禁忌遵守 `brand-dna.md`
 - 头像源文件：`assets/avatar.jpg`（HTML内用相对路径 `avatar.jpg` 引用，交付时复制到输出HTML同目录）
 - 署名固定为你在 `template-cards.html` 中配置的作者名（模板内为占位符，使用前替换）
-- 品牌三色比例：主色6 : 强调3 : 点缀1
+- 品牌三色比例：珊瑚粉65 : 鼠尾草绿25 : 青柠黄绿10
 - 背景主色：奶白 `#fefcf6` / 深奶 `#faf6eb`，深色面板用 `#1A1A2E`
 
 ---

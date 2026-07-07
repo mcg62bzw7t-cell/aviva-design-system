@@ -1,4 +1,4 @@
-# Personal Design Skill
+﻿# Personal Design Skill
 
 一套给 AI 看的个人品牌设计系统。
 
@@ -88,14 +88,15 @@ assets/template-*.html(起点 - 从模板改,不从零写)
 ## 文件结构
 
 ```
-esther-design-system/
+aviva-design-system/
 ├── SKILL.md                    ← 7步工作流(大脑)
-├── brand-dna.md                ← 品牌基因:颜色/字体/气质/禁忌(需配置)
+├── brand-dna.md                ← 品牌基因:颜色/字体/气质/禁忌(已配置)
 ├── assets/                     ← 模板骨架(起点)
 │   ├── template-tutorial.html      教程页模板
 │   ├── template-landing.html       活动页模板
 │   ├── template-app.html           App型模板
 │   ├── template-cards.html         小红书卡片模板
+│   ├── template-wechat.html        公众号排版模板
 │   ├── html2canvas.min.js          卡片导出依赖
 │   ├── avatar-placeholder.svg      占位头像(可替换为你自己的 avatar.jpg)
 │   └── avatar.jpg                  ← 你的头像(需自行放入,仓库未附带)
@@ -134,9 +135,9 @@ AI 每次做设计必须按这个顺序走：
 
 | 颜色 | 色值 | 比例 |
 |------|------|------|
-| 主色 | `#2B7FD8` | 60% |
-| 强调色 | `#F4D758` | 30% |
-| 点缀色 | `#E84A5F` | 10% |
+| 珊瑚粉 | `#FFA7A6` | 65% |
+| 鼠尾草绿 | `#D1E5D0` | 25% |
+| 青柠黄绿 | `#E0F0B0` | 10% |
 
 ### 字体
 
@@ -150,7 +151,7 @@ AI 每次做设计必须按这个顺序走：
 
 ### 气质关键词（请根据你的品牌调性修改）
 
-可爱但有品质 · 手绘蜡笔感 · 有温度 · **不像 AI** · 一看就是你的
+甜酷元气 · 珊瑚粉的温暖 + 鼠尾草绿的清爽 · **不像 AI** · 一看就是你的
 
 ### 禁忌
 
@@ -178,7 +179,7 @@ AI 每次做设计必须按这个顺序走：
 
 1. Fork 或克隆本仓库
 2. 放入你的头像 `assets/avatar.jpg`
-3. （可选）打开 `brand-dna.md`，把默认品牌色替换成你自己的，并同步修改 `assets/template-*.html` 里 `:root` 的变量。注意：公众号模板（`template-wechat.html`）全部是内联样式，没有 CSS 变量，需要手动搜索替换色值。快捷方法：在所有模板文件中搜索 `#2B7FD8` 替换为你的主色，`#F4D758` 替换为你的强调色，`#E84A5F` 替换为你的点缀色
+3. （可选）打开 `brand-dna.md`，把默认品牌色替换成你自己的，并同步修改 `assets/template-*.html` 里 `:root` 的变量。注意：公众号模板（`template-wechat.html`）全部是内联样式，没有 CSS 变量，需要手动搜索替换色值。快捷方法：在所有模板文件中搜索 `#FFA7A6` 替换为你的主色，`#D1E5D0` 替换为你的强调色，`#E0F0B0` 替换为你的点缀色
 4. 把 `assets/template-cards.html` 中的作者名替换成你自己的
 5. 把仓库链接发给你的 AI Agent，跟它说：
 

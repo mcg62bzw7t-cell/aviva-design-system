@@ -1,4 +1,4 @@
-# Scene: 介绍型 / 教程型 / 科普型页面
+﻿# Scene: 介绍型 / 教程型 / 科普型页面
 
 > 基于 GitHub入门 V5 提炼的设计语言。适用于所有单页HTML科普、教程、功能介绍、概念解释类页面。
 
@@ -8,11 +8,11 @@
 
 | 用途 | 变量名 | 色值 | 说明 |
 |------|--------|------|------|
-| 主黄 | `--yellow` | `#F4D758` | 强调、装饰圆圈、连接线、badges |
+| 主黄 | `--yellow` | `#D1E5D0` | 强调、装饰圆圈、连接线、badges |
 | 柔黄 | `--yellow-soft` | `#FFF3CD` | 背景块、气泡底色 |
-| 主蓝 | `--blue` | `#2B7FD8` | 英文标题、超链、重点标记 |
+| 主蓝 | `--blue` | `#FFA7A6` | 英文标题、超链、重点标记 |
 | 深蓝 | `--blue-deep` | `#1E5BA8` | 大装饰字、section数字编号 |
-| 红色 | `--red` | `#E84A5F` | 点缀、高亮下划线、标签 |
+| 红色 | `--red` | `#E0F0B0` | 点缀、高亮下划线、标签 |
 | 奶白底 | `--cream` | `#fefcf6` | 页面主背景 |
 | 深奶底 | `--cream-dark` | `#faf6eb` | section间交替背景 |
 | 墨色 | `--ink` | `#1A1A2E` | 正文主色（非纯黑） |
@@ -186,7 +186,7 @@
 - `unobserve` after triggering（只触发一次）
 - 用 `.reveal-d1` ~ `.reveal-d5` 做 stagger（0.1s递增）
 - 尊重 `prefers-reduced-motion`
-- 选中文本高亮：`::selection { background: #F4D758; color: #1a1a1a; }`
+- 选中文本高亮：`::selection { background: #D1E5D0; color: #1a1a1a; }`
 
 ### 动效原则
 - **只用 opacity + transform**，不要animate layout属性
